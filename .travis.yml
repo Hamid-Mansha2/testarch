@@ -1,0 +1,8 @@
+language: generic
+
+arch:
+  - amd64
+  - arm64
+
+script:
+  - echo "Architecture: $TRAVIS_CPU_ARCH"
